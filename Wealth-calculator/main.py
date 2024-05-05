@@ -40,7 +40,7 @@ def main():
         # Create a list of years for the x-axis
         years_list = list(range(1, years + 1))
 
-        # Plot the data
+        # Plot the data for returns.
         plt.plot(years_list, wealth_by_year, marker='o', linestyle='-', color='b', label='Total Wealth')
         plt.xlabel('Years')
         plt.ylabel('Total Wealth ($)')
